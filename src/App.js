@@ -4,7 +4,7 @@ import Home from './Home';
 import Footer from './Footer';
 import Header from './Header';
 import Portfolio from './Portfolio';
-import {BrowserRouter as Router, Route} from "react-router-dom"
+import {HashRouter as Router, Route} from "react-router-dom"
 function App() {
   return (
    <Router>
