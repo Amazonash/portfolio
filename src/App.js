@@ -12,12 +12,12 @@ function App() {
        <Header>
 
        </Header>
-       <Route exact path="/" component={Home}>
+       <Route exact path="/home" component={Home}>
       </Route>
-      <Route exact path="/Portfolio" component={Portfolio}>
+      <Route exact path="/portfolio" component={Portfolio}>
       </Route>
       <Footer>
-        
+
       </Footer>
 
  
